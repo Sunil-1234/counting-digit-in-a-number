@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+int n;  
+cin>>n;  //taking input from user
+
+int count=0; 
+
+ // checking number is greater than 0 or not
+while(n>0){
+
+count++;  //updating the value of count
+
+n=n/10;    // reducing number of digit by 1
+
+}
+cout<<count;
+return 0;
+}
